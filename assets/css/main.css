@@ -1418,10 +1418,10 @@ input, select, textarea {
 	}
 
 		.gallery article {
-			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
-			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
-			transition: transform 1s ease, opacity 1s ease;
+			-moz-transition: -moz-transform 1.75s ease, opacity 0.75s ease;
+			-webkit-transition: -webkit-transform 1.75s ease, opacity 0.75s ease;
+			-ms-transition: -ms-transform 1.75s ease, opacity 0.75s ease;
+			transition: transform 1.75s ease, opacity 0.75s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
@@ -2229,8 +2229,8 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		/* background: url("images/overlay.png"), url("../../images/intro.jpg"); */
-		background: url("images/overlay.png"), url("../../images/fulls/02.jpg");
+		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		/* background: url("images/overlay.png"), url("../../images/fulls/02.jpg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2240,8 +2240,8 @@ input, select, textarea {
 /* One */
 
 	#one {
-		/* background: url("images/overlay.png"), url("../../images/one.jpg"); */
-		background: url("images/overlay.png"), url("../../images/fulls/03.jpg");
+		background: url("images/overlay.png"), url("../../images/one.jpg");
+		/* background: url("images/overlay.png"), url("../../images/fulls/03.jpg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2250,8 +2250,8 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		/* background: url("images/overlay.png"), url("../../images/two.jpg"); */
-		background: url("images/overlay.png"), url("../../images/fulls/04.jpg");
+		background: url("images/overlay.png"), url("../../images/two.jpg");
+		/* background: url("images/overlay.png"), url("../../images/fulls/04.jpg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2260,8 +2260,8 @@ input, select, textarea {
 /* Work */
 
     #work {
-		/* background: url("images/overlay.png"), url("../../images/work.jpg"); */
-		background: url("images/overlay.png"), url("../../images/fulls/05.jpg");
+		background: url("images/overlay.png"), url("../../images/work.jpg");
+		/* background: url("images/overlay.png"), url("../../images/fulls/05.jpg"); */
     	background-size: 256px 256px, cover;
     	background-attachment: fixed, fixed;
     	background-position: top left, center center;
@@ -2272,8 +2272,8 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
-		/* background: url("images/overlay.png"), url("../../images/contact.jpg"); */
-		background: url("images/overlay.png"), url("../../images/fulls/03.jpg");
+		background: url("images/overlay.png"), url("../../images/contact.jpg");
+		/* background: url("images/overlay.png"), url("../../images/fulls/03.jpg"); */
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
